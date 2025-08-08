@@ -4,6 +4,10 @@ export default function renderLoginPage() {
     const divRoot = document.getElementById('root');
     divRoot.innerHTML = '';
 
+    const titulo = document.createElement('h1');
+    titulo.textContent= 'Faça o login ou crie uma conta';
+    titulo.className = titulo
+
     const container = document.createElement('div');
     container.className = 'card p-4 shadow-lg';
     container.style.width = '100%'; //Container com 100% de largura na div para ocupar a tela 
